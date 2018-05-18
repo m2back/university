@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'iransans';
+	src: url(../fonts/iransans/eot/IRANSansWeb.eot) format('eot'),
+		url(../fonts/iransans/ttf/IRANSansWeb.ttf) format('ttf'),
+		url(../fonts/iransans/woff/IRANSansWeb.woff) format('woff');
+}
+body{
+	direction: rtl;
+	font-family: iransans;
+}
+
+nav ul{
+  float: right;
+  padding-right: 110px;
+}
+
+.sidenav {
+    height: 100%;
+    //width: 260px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #6c747c;
+    overflow-x: hidden;
+    padding-top: 75px;
+    padding-right: 10px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 2۰px;
+    color: #c9cecd;
+    display: block;
+    float: right;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    padding-top: 56px;
+    padding-right: 115px;
+    float: right;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body {
+  background-image: url('../images/main_back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mstrpnlbtn{
+    padding: 16px 41px;
+}
+
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.intro ul li a{
+    font-family: iransans;
+    margin-top: 250px;
+}
