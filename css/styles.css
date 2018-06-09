@@ -16,6 +16,9 @@ nav ul{
   padding-right: 110px;
 }
 
+nav ul li {
+	margin-right: 25px;
+}
 .sidenav {
     height: 100%;
     //width: 260px;
@@ -24,12 +27,14 @@ nav ul{
     right: 0;
     background-color: #6c747c;
     overflow-x: hidden;
-    padding-top: 75px;
-    padding-right: 10px;
+    //padding-top: 75px;
+    //padding-right: 10px;
+		top:0;
+		margin-top: 50px;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 20px 8px 6px 16px;
     text-decoration: none;
     font-size: 2۰px;
     color: #c9cecd;
@@ -41,9 +46,20 @@ nav ul{
     color: #f1f1f1;
 }
 
+.toStickDown{
+	bottom: 0;
+	position: fixed;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.aLittleUp{
+	margin-bottom: 65px;
+}
+
 .main {
-    padding-top: 56px;
-    padding-right: 115px;
+		margin-top: 56px;
+		margin-right: 141px;
     float: right;
 }
 
@@ -71,4 +87,65 @@ body {
 .intro ul li a{
     font-family: iransans;
     margin-top: 250px;
+}
+
+.loginfailed{
+	color: red;
+	font-size: 21px;
+	direction: ltr;
+}
+
+.wlcmMsg{
+	margin-top: 80px;
+}
+
+.wlcmMsgtxt{
+	float: right;
+}
+
+.table-content{
+	text-align: right;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+table tr, td{
+	text-align: right;
+}
+table td{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.editDetailsTxt{
+	padding-left: 0;
+	text-align: center;
+}
+.btnsrow{
+	margin-bottom: 25px;
+}
+
+.shwmstprgtbl{
+	//margin-top: 95px;
+	//margin-right: 160px;
+	//margin-left: 160px;
+	padding: 0;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.shwmstprgtbl tr , td{
+	text-align: center;
+	float: none;
+}
+.btnSubmitPoint{
+	text-align: center;
+}
+.shwmstprgtbl a{
+	text-decoration: none;
+	color: #60d4bf;
+}
+.topPageTxt{
+	margin-top: 100px;
+	float: right;
 }

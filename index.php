@@ -12,39 +12,8 @@
   <title>University</title>
 </head>
 <body>
-
-
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.php">صفحه اصلی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">تماس با ما</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">درباره ما</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-  <div class="sidenav">
-    <a href="#">پنل اساتید</a><br>
-    <a href="#">پنل دانشجویان</a><br>
-    <a href="#">رزرو غدا</a><br>
-    <a href="#">راهنما</a><br>
-    <a href="#">تماس با ما</a><br>
-  </div>
-
-
-
+  <?php include_once ('pages/navigationbar.php'); ?>
+  <?php include_once ('pages/sidenavbasic.php'); ?>
   <div class="main">
 
   </div>
@@ -55,15 +24,9 @@
                     <div class="col-lg-12">
                         <ul class="list-inline">
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                     <li class="list-inline-item">
-                                        <a href="pages/student.php" class="btn btn-dark btn-lg mstrpnlbtn">ورود به پنل دانشجویان
-                                        </a>
-                                    </li>
-                                </div>
-                                <div class="col-sm-6">
-                                    <li class="list-inline-item">
-                                        <a href="pages/master.php" class="btn btn-dark btn-lg mstrpnlbtn">ورود به پنل اساتید
+                                        <a href="pages/loginpage.php" class="btn btn-dark btn-lg mstrpnlbtn">ورود به پنل مدیریت
                                         </a>
                                     </li>
                                 </div>
